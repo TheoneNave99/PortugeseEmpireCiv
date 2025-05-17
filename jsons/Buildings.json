@@ -1,25 +1,25 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Feitoria",
+		"replaces": "Market",
+		"uniqueTo": "Portuguese Empire",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 20},
+		"uniques": ["[+1 Food, +1 Production, +1 Gold] from [coast] tiles [in this city]", "[+1 Food, +1 Production, +1 Gold] from [ocean] tiles [in this city]"],
+		"requiredTech": "Currency"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Fortified Harbor",
+		"replaces": "Harbor",
+		"uniqueTo": "Portuguese Empire",
+		"cost": 180,
+		"maintenance": 4,
+		"cityStrength": 5,
+		"cityHealth": 15,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "[+25]% Production when constructing [Water] units [in this city]",
+			    "Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
 ]
