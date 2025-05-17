@@ -70,4 +70,35 @@
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
+	{
+		"name": "Cassador",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Portuguese Empire",
+		"range": 1,
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 28,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Ignore terrain cost"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Organ Gun",
+		"unitType": "Siege",
+		"replaces": "Cannon",
+		"uniqueTo": "Portuguese Empire",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 32,
+		"cost": 200,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[-50]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
 ]
