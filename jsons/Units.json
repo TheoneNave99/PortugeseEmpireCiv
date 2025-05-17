@@ -8,7 +8,7 @@
 		"requiredTech": "Astronomy",
 		"uniques": ["Founds a new city <by consuming this unit>","Excess Food converted to Production when under construction",
 			   "Requires at least [2] population"],
-		"promotions": ["Ignore terrain cost","Scouting I", "Scouting II"],
+		"promotions": ["Ignore terrain cost","Scouting I"],
 	},
 	{
 		"name": "Explorador",
@@ -20,7 +20,32 @@
 		"cost": 100,
 		"requiredTech": "Compass",
 		"uniques": ["[+1] Sight"],
-		"promotions": ["Ignore terrain cost","Drill I", "Drill II",],
+		"promotions": ["Ignore terrain cost","Drill I", "Drill II"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Light Explorador",
+		"unitType": "Scout",
+		"uniqueTo": "Portuguese Empire",
+		"movement": 5,
+		"strength": 18,
+		"cost": 100,
+		"requiredTech": "Astronomy",
+		"uniques": ["[+1] Sight"],
+		"promotions": ["Ignore terrain cost","Scouting I", "Scouting II"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Heavy Explorador",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Portuguese Empire",
+		"movement": 3,
+		"strength": 23,
+		"cost": 200,
+		"requiredTech": "Astronomy",
+		"uniques": ["[+1] Sight", "[+50]% Strength <when defending>"],
+		"promotions": ["Ignore terrain cost","Drill I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
