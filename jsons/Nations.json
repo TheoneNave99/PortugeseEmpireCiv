@@ -20,7 +20,7 @@
 		     "Starts with [Exploration] adopted", "[+2] Movement <for [Embarked] units>",
 		     "Allied City-States provide [Faith] equal to [+25]% of what they produce for themselves <in [capital] cities>",
 		     "Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves <in [capital] cities>",
-		     "Allied City-States provide [Food] equal to [+25]% of what they produce for themselves <in [capital] cities>"],
+		     "Allied City-States provide [Food] equal to [+20]% of what they produce for themselves <in [capital] cities>"],
         "cities": [
             "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
             "Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
