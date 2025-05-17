@@ -1,17 +1,46 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"name": "Portuguese Entrepenuer",
+		"unitType": "Civilian",
+		"replaces": "Settler",
+		"uniqueTo": "Portuguese Empire",
+		"movement": 8,
+		"cost": 350,
+		"uniques": ["Founds a new city <by consuming this unit>","Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			    "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+			    "Cannot be purchased"],
+	},
+	{
+		"name": "Explorador",
+		"unitType": "Scout",
+		"uniqueTo": "Portuguese Empire",
+		"movement": 5,
+		"strength": 18,
+		"cost": 50,
+		"requiredTech": "Astronomy",
+		"uniques": ["May upgrade to [Rifleman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost","Scouting I", "Scouting II"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Laborer",
+		"unitType": "Civilian",
+		"uniqueTo": "Portuguese Empire",
+		"movement": 3,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 25
+	},
+	{
+		"name": "Scout Ship",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Portuguese Empire",
+		"movement": 7,
+		"strength": 20,
+		"cost": 90,
+		"uniques": ["[+2] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"requiredTech": "Astronomy",
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
 ]
