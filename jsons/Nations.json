@@ -1,38 +1,36 @@
 [
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+    {
+        "name": "Portuguese Empire",
+        "leaderName": "Maria I",
+        "adjective": ["Portuguese"],
+        "startBias": ["Coast"],
+        "startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
+        "startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "I'm afraid I cannot allow your kingdom to exist for much longer! I hope you won't mind...",
+        "attacked": "You cannot be serious!",
+        "defeated": "I know little about this conflict...I'll have to consult my regent...",
+        "introduction": "I am Maria, Queen of Portugal! Have we met before? You look familiar to me... Or maybe not.",
+        "neutralHello": "Good morning.",
+        "hateHello": "Why did you come?",
+        "tradeRequest": "Will you consider this offer?",
+        "outerColor": [206,206,205],
+        "innerColor": [8,25,115],
+        "uniqueName": "Pious Merchants",
+        "uniques": [ "May choose [2] additional belief(s) of any type when [founding] a religion",
+		     "Provides [2] [Trade Route] <upon discovering [Compass] technology>", "Provides [3] [Trade Route] <upon discovering [Navigation] technology>",
+		     "Allied City-States provide [Gold] equal to [+10]% of what they produce for themselves <in [capital] cities>",
+		     "Allied City-States provide [Faith] equal to [+10]% of what they produce for themselves <in [capital] cities>",
+		     "Allied City-States provide [Culture] equal to [+10]% of what they produce for themselves <in [capital] cities>",
+		     "Allied City-States provide [Science] equal to [+10]% of what they produce for themselves <in [capital] cities>",
+		     "Allied City-States provide [Production] equal to [+10]% of what they produce for themselves <in [capital] cities>"],
+        "cities": [
+            "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
+            "Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
+            "Maputo","Tavira","Figueira da Foz","Viana do Castelo","Sao Tome and Principe","Silves","Sintra","Dili","Lamego",
+            "Ponta Delgada"
+        ],
+        "spyNames": [
+            "Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
+        ]
+    },
 ]
