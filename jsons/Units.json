@@ -28,11 +28,11 @@
 		"unitType": "Scout",
 		"uniqueTo": "Portuguese Empire",
 		"movement": 5,
-		"strength": 18,
+		"strength": 16,
 		"cost": 100,
 		"requiredTech": "Astronomy",
 		"uniques": ["[+1] Sight"],
-		"promotions": ["Ignore terrain cost","Scouting I", "Scouting II"],
+		"promotions": ["Ignore terrain cost","Can move after attacking", "Scouting I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -41,7 +41,7 @@
 		"replaces": "Longswordsman",
 		"uniqueTo": "Portuguese Empire",
 		"movement": 3,
-		"strength": 23,
+		"strength": 22,
 		"cost": 200,
 		"requiredTech": "Astronomy",
 		"uniques": ["[+1] Sight", "[+50]% Strength <when defending>"],
@@ -83,7 +83,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Ignore terrain cost"],
+		"uniques": ["Ignore terrain cost", "Can move after attacking"],
 		"attackSound": "shot"
 	},
 	{
