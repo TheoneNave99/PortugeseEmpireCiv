@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Portuguese Entrepenuer",
+		"name": "Expedition Captain",
 		"unitType": "Civilian",
 		"replaces": "Settler",
 		"uniqueTo": "Portuguese Empire",
