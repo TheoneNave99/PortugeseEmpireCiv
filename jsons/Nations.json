@@ -17,10 +17,8 @@
         "innerColor": [8,25,115],
         "uniqueName": "Pious Explorers",
         "uniques": [ "May choose [2] additional belief(s) of any type when [founding] a religion", 
-		     "Starts with [Exploration] adopted", "[+2] Movement <for [Embarked] units>",
-		     "Allied City-States provide [Faith] equal to [+25]% of what they produce for themselves <in [capital] cities>",
-		     "Allied City-States provide [Culture] equal to [+25]% of what they produce for themselves <in [capital] cities>",
-		     "Allied City-States provide [Food] equal to [+20]% of what they produce for themselves <in [capital] cities>"],
+		     "Starts with [Exploration] adopted", "[+2] Movement <for [Water] units>", "[+2] Movement <for [Embarked] units>",
+		     "[+33]% Production when constructing [Scout] units [in all cities]"]
         "cities": [
             "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
             "Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
