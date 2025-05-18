@@ -31,8 +31,8 @@
 		"strength": 16,
 		"cost": 100,
 		"requiredTech": "Astronomy",
-		"uniques": ["[+1] Sight"],
-		"promotions": ["Ignore terrain cost","Can move after attacking", "Scouting I"],
+		"uniques": ["[+1] Sight", "Can move after attacking"],
+		"promotions": ["Ignore terrain cost", "Scouting I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -66,7 +66,7 @@
 		"strength": 20,
 		"cost": 80,
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
-		"requiredTech": "Astronomy",
+		"requiredTech": "Compass",
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -98,7 +98,8 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[-50]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","Never appears as a Barbarian unit"],
+		"uniques": ["[-50]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			    "Never appears as a Barbarian unit", "Can move after attacking"],
 		"attackSound": "cannon"
 	},
 ]
